@@ -790,7 +790,12 @@ Parallax
 	}
 	
 }
+/* Custom CSS Nelson */
 
 .intro {
   background-size: cover;
+}
+
+footer a {
+	color:white;
 }
