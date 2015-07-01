@@ -790,3 +790,7 @@ Parallax
 	}
 	
 }
+
+.intro {
+  background-size: cover;
+}
