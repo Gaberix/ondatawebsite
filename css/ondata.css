@@ -1,3 +1,11 @@
 .top-nav-collapse, footer {
     background: #2e85d1;
-} 
+}
+
+body#risorse {
+  font-size: 1.4em;
+}
+
+.top-nav-collapse, footer {
+    background: #333;
+}
