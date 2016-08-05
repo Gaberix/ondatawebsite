@@ -5,3 +5,8 @@
 body#risorse {
   font-size: 1.4em;
 }
+
+div#single-person {
+  margin-top: 10px;
+  min-height: 285px;
+}
