@@ -25,6 +25,10 @@ footer a {
 }
 
 .news-section {
+<<<<<<< HEAD
   padding-top:80px;
+=======
+  padding-top:50px;
+>>>>>>> 91445fe9485f5dc0ceece5f9ae9e34ffbd1796e2
   padding-bottom:50px;
 }
