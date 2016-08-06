@@ -13,7 +13,6 @@ div#single-person {
 
 
 div#single-valore .service-box {
-  border:1px solid grey;
   padding:1px;
 }
 
@@ -23,4 +22,9 @@ div#single-valore .service-box {
 
 footer a {
 	color:white;
+}
+
+.news-section {
+  padding-top:50px;
+  padding-bottom:50px;
 }
