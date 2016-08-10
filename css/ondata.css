@@ -8,7 +8,7 @@ body#risorse {
 
 div#single-person {
   margin-top: 10px;
-  min-height: 327 px;
+  min-height: 327px;
 }
 
 
@@ -28,4 +28,8 @@ footer a {
 .news-section {
   padding-top:80px;
   padding-bottom:50px;
+}
+
+.intro .slogan h2 {
+    font-size: 4rem;
 }
