@@ -25,7 +25,7 @@
             dataType: "json",
             success: function (data) {
                 $("#" + id).empty();
-				$("#" + id).append('<h4>Ultime notizie da '+data.responseData.feed.title+'</h4>');
+				$("#" + id).append('<h2 class="text-center">Ultime notizie da '+data.responseData.feed.title+'</h2>');
                 $.each(data.responseData.feed.entries, function (e, item) {
                     s += '<li><div class="itemTitle"><a href="' + item.link + '" target="' + def.TitleLinkTarget + '" >' + item.title + "</a></div>";
 
