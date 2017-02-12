@@ -1,4 +1,6 @@
-Thanks for downloading this theme!
+Associazione Ondata's Website
+
+-
 
 Theme Name: Moderna
 Theme URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
