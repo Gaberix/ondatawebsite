@@ -6,3 +6,8 @@ h2 {
   #sub-footer ul.social-network {
       font-size: 2rem;
   }
+
+  .pricing-content ul li {
+    padding: 15px;
+    color: #0e0e0e;
+}
