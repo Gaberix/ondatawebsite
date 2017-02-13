@@ -2,3 +2,7 @@
 h2 {
     font-weight: 500;
   }
+
+  #sub-footer ul.social-network {
+      font-size: 2rem;
+  }
