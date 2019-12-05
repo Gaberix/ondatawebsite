@@ -265,6 +265,10 @@ padding-top: 100px;
     background: white;
     position: absolute;
 margin-top:0px;
-width: 99%;
+width: 100%;
 
+}
+
+body {
+	margin:0px
 }
