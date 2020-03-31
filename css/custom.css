@@ -36,3 +36,17 @@ h2 {
 body {
   color:#333;
 }
+
+
+/* navbar come sostieni.ondata.it */
+
+.navbar .nav > li > a {
+    font-size: 14px;
+    text-decoration: capitalise;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+}
+
+header ul.nav li a {
+    text-transform: capitalize;
+}
