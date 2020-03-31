@@ -38,7 +38,7 @@ body {
 }
 
 
-/* navbar come sostieni.ondata.it */
+/* nuovo stile come sostieni.ondata.it */
 
 .navbar .nav > li > a {
     font-size: 14px;
@@ -49,4 +49,10 @@ body {
 
 header ul.nav li a {
     text-transform: capitalize;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    line-height: 1.3em;
 }
