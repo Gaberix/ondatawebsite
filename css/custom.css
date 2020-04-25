@@ -1,15 +1,119 @@
 
-h2 {
-    font-weight: 500;
-  }
+body {
+  color: var(--main-text-color);
+  font-size: 20px;
+  line-height: 30px;
+  font-family: Montserrat, sans-serif;
+}
 
-  #sub-footer ul.social-network {
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    line-height: 1.3em;
+    color: var(--main-text-color);
+}
+
+h1 {
+    font-size: 3.4rem;
+}
+
+h2 {
+    font-size: 2.6rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+.sans-text {
+  font-family: Montserrat, sans-serif;
+}
+
+.serif-text {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.cta-text {
+  text-align: left;
+}
+
+footer {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+footer a {
+  color: var(--white-color);
+  text-decoration: underline;
+}
+
+footer a:active, footer a:hover, footer a:focus {
+  text-decoration: underline;
+}
+
+footer h1, footer h2, footer h3, footer h4, footer h5, footer h6, footer p, footer li, footer address {
+  color: var(--white-color);
+  font-family: Montserrat, sans-serif;
+}
+
+footer p, footer li, footer address {
+  font-size: 1.2rem;
+  line-height: 2rem;
+
+}
+
+.social-network li {
+  font-size: 2.2rem;
+}
+
+#sub-footer ul.social-network {
       font-size: 2rem;
   }
 
-  .pricing-content ul li {
+.icon {
+  margin: 20px 0 20px 0;
+}
+
+.pricing-content ul li {
     padding: 15px;
-    color: #0e0e0e;
+    color: var(--black-color);
+}
+
+#content {
+    position: relative;
+    background: #fff;
+    padding: 0px 0 40px 0;
+}
+.tool-details {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.tool-details li {
+  font-size: 1.6rem;
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid var(--gray-color);
+}
+
+.tool-details li:last-child {
+  padding: 10px 0 0 0;
+  border-bottom: none;
+}
+
+section.callaction {
+  margin-top: 130px;
+  background: var(--white-color);
+  padding: 60px 0 20px 0;
+}
+
+#inner-headline {
+  margin-top: 130px;
+  background: var(--white-color)
 }
 
 #featured .flexslider {
@@ -19,7 +123,7 @@ h2 {
 #featured .flexslider {
     padding: 0;
     margin: 110px 0 30px;
-    background: #fff;
+    background: var(--white-color);
     position: relative;
     zoom: 1;
 }
@@ -28,16 +132,34 @@ h2 {
   font-size: 18px !important;
 }
 
+.box-parent {
+  margin-bottom:30px;
+}
+
+.box-gray {
+  padding: 30px;
+  border-radius: 14px;
+}
+
+.box-top {
+  margin-bottom: 0px;
+  border-radius: 14px 14px 0 0;
+}
+
+.box-bottom {
+  border-radius: 0 0 14px 14px;
+  margin-bottom:30px;
+}
+
 .box-blue {
-    background: #68A4C4;
+    background: var(--brand-color);
     padding: 20px 20px 30px;
 }
 
-body {
-  color:#333;
-}
-
-
+.btn:hover, .btn:focus, btn:active {
+    color: var(--lightgray-color);
+    text-decoration: none;
+  }
 /* nuovo stile come sostieni.ondata.it */
 
 .navbar .nav > li > a {
@@ -51,8 +173,89 @@ header ul.nav li a {
     text-transform: capitalize;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: Montserrat, sans-serif;
-    font-weight: 600;
-    line-height: 1.3em;
+header ul.nav li a:hover {
+    text-transform: capitalize;
+    color:var(--brand-color);
+}
+
+p, li, address {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+a.sostieni {
+  color: var(--link-clolor);
+  }
+
+.navbar .nav > li > a {
+  color: var(--main-text-color);
+}
+
+ .navbar .nav > li > a:hover, .navbar .nav > li > a:focus, .navbar .nav > .active > a:focus {
+   color: var(--brand-color) !important;
+   text-decoration: underline;
+ }
+
+.subhead {
+   display: block;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   line-height: 30px;
+   font-weight: 600;
+   font-size: 20px;
+ }
+/* stile banner Covid19 */
+
+#featured {
+  background: var(--bg-higlight-color);
+}
+
+#covid19 {
+  background: var(--bg-higlight-color);
+  padding:50px;
+}
+
+#covid19 h2{
+  color:var(--link-color);
+  font-weight: bold;
+  font-size:36px;
+}
+
+#covid19 .subhead {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#covid19 p, #covid19 li {
+margin-bottom: 0px;
+font-size: 20px;
+line-height: 30px;
+}
+
+#covid19 a {
+color:red;
+text-decoration: underline;
+}
+
+#covid19 img {
+float:right;
+}
+
+.h-link, .h-link:hover, .h-link:active, .h-link:focus {
+  color: var(--brand-color);
+}
+
+.bg-success {
+    background-color: var(--bg-higlight-color);
+}
+
+
+@media (max-width: 767px) {
+  .box-parent {
+		border-bottom: none;
+    padding-bottom: 0px;
+	}
 }
