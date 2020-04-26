@@ -139,6 +139,7 @@ section.callaction {
 .box-gray {
   padding: 30px;
   border-radius: 14px;
+  min-height: 190px;
 }
 
 .box-top {
